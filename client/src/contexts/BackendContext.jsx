@@ -19,7 +19,7 @@ export const BackendProvider = ({ children }) => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:3000/search', {
+      const response = await fetch('https://q-search.onrender.com/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
