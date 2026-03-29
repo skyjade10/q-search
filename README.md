@@ -15,7 +15,10 @@
 3. **Set up environment variables:**
    Create a `.env` file in the root of the `backend` directory and add the following:
    ```env
-   DB_URL=<your_database_url>
+   TINYFISH_API_KEY
+   TINYFISH_BASE_URL
+   //for local hosting change the link to local hosting
+   SERPAPI_KEY
    PORT=3000
    ```
 
@@ -43,8 +46,3 @@
 ## Common Issues
 - Ensure that you have Node.js installed. Use `node -v` to check the version.
 - If you encounter issues with missing modules, try deleting `node_modules` and running `npm install` again.
-
-## Additional Resources
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
